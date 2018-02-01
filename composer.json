@@ -1,0 +1,39 @@
+{
+  "name": "starchitect/comparison",
+  "type": "library",
+  "description": "PHP library for comparison",
+  "keywords": [
+    "comparison",
+    "comparator",
+    "comparable"
+  ],
+  "homepage": "https://github.com/starchitect/comparison",
+  "license": "Apache License, Version 2.0",
+  "authors": [
+    {
+      "name": "Anton Vorobyev",
+      "email": "anton@vorobyev.co",
+      "homepage": "https://vorobyev.co",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~5.6|~7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7 || ^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Starchitect\\Comparison\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Starchitect\\Comparison\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
